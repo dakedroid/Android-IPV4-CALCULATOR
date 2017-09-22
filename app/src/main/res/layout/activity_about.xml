@@ -8,17 +8,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/iv_post_owner_display"
-            android:layout_marginTop="@dimen/md_keylines"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/tec" />
-
         <TextView
             android:id="@+id/textView"
-            android:textSize="18dp"
+            android:textSize="26dp"
             android:layout_marginTop="@dimen/md_keylines"
             android:gravity="center_horizontal"
             android:layout_width="match_parent"
@@ -27,6 +19,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/md_keylines"
             android:orientation="horizontal"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
@@ -83,6 +76,65 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Jorge Luis Sixto Roberto" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginEnd="@dimen/md_keylines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_post_owner_display_mitzi"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/mitzy" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:textSize="18dp"
+                    android:maxLines="3"
+                    android:lines="3"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mitzy Paola Velazco Vazquez"
+                    android:layout_weight="1.80" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/md_keylines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_post_owner_display_vilda"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/vilda" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:textSize="18dp"
+                    android:maxLines="3"
+                    android:lines="2"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vilda Astrid Garcia Toledo" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

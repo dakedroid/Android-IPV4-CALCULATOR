@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-<!-- ##################### LUGARES ###########################-->
 
     <string-array name="titulos">
-        <item>Conversion Decimal a Binario</item>
-        <item>Conversion Binario a Decimal</item>
+        <item>Decimal a Binario</item>
+        <item>Binario a Decimal</item>
         <item>Conseguir Clase</item>
         <item>Acerca De</item>
     </string-array>
 
     <array name="imagenes">
-        <item>@drawable/ic_compare_arrows_black_24dp</item>
-        <item>@drawable/ic_code_black_24dp</item>
-        <item>@drawable/ic_class_black_24dp</item>
-        <item>@drawable/ic_info_outline_black_24dp</item>
+        <item>@drawable/decimal</item>
+        <item>@drawable/binario</item>
+        <item>@drawable/clase</item>
+        <item>@drawable/acerca</item>
     </array>
 
 

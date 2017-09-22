@@ -69,22 +69,22 @@ public class ConvertDtoBActivity extends AppCompatActivity {
 
     public boolean valid(){
         if (Integer.parseInt(edtxDecimal.getText().toString()) > 255){
-            sendToast("El primer octeto esta mal");
+            sendToast("El primer octeto es mayor de 255");
             edtxDecimal.setText("");
             return false;
         }
         if (Integer.parseInt(edtxDecimal2.getText().toString()) > 255){
-            sendToast("El segundo octeto esta mal");
+            sendToast("El segundo octeto es mayor de 255");
             edtxDecimal2.setText("");
             return false;
         }
         if (Integer.parseInt(edtxDecimal3.getText().toString()) > 255){
-            sendToast("El tercer octeto esta mal");
+            sendToast("El tercer octeto es mayor de 255");
             edtxDecimal3.setText("");
             return false;
         }
         if (Integer.parseInt(edtxDecimal4.getText().toString()) > 255){
-            sendToast("El cuarto octeto esta mal");
+            sendToast("El cuarto octeto es mayor de 255");
             edtxDecimal4.setText("");
             return false;
         }

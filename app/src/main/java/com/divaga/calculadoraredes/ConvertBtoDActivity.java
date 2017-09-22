@@ -41,7 +41,6 @@ public class ConvertBtoDActivity extends AppCompatActivity {
                         !edtxBinario2.getText().toString().equals("") &&
                         !edtxBinario3.getText().toString().equals("") &&
                         !edtxBinario4.getText().toString().equals("")) {
-
                     if(valid()){
                         int decimalValue = Integer.parseInt(edtxBinario.getText().toString(), 2);
                         int decimalValue2 = Integer.parseInt(edtxBinario2.getText().toString(), 2);
@@ -69,22 +68,22 @@ public class ConvertBtoDActivity extends AppCompatActivity {
     }
 
     public boolean valid(){
-        if (edtxBinario.getText().toString().length()!=8){
+        if (edtxBinario.getText().toString().length() > 8){
             sendToast("El primer octeto esta mal");
             edtxBinario.setText("");
             return false;
         }
-        if (edtxBinario2.getText().toString().length()!=8){
+        if (edtxBinario2.getText().toString().length() > 8){
             sendToast("El segundo octeto esta mal");
             edtxBinario2.setText("");
             return false;
         }
-        if (edtxBinario3.getText().toString().length()!=8){
+        if (edtxBinario3.getText().toString().length() > 8){
             sendToast("El tercer octeto esta mal");
             edtxBinario3.setText("");
             return false;
         }
-        if (edtxBinario4.getText().toString().length()!=8){
+        if (edtxBinario4.getText().toString().length() > 8){
             sendToast("El cuarto octeto esta mal");
             edtxBinario4.setText("");
             return false;
