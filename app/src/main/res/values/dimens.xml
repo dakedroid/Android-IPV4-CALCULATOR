@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ##################### CARD VIEWS ###########################-->
+
+    <dimen name="nav_header_vertical_spacing">13dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="card_height">340dp</dimen>
+    <dimen name="card_w_home">250dp</dimen>
+    <dimen name="card_h_home">250dp</dimen>
+    <dimen name="card_height_lugares">100dp</dimen>
+    <dimen name="card_new_h">300dp</dimen>
+    <dimen name="card_height_news">352dp</dimen>
+    <dimen name="card_height_vertical">390dp</dimen>
+    <dimen name="card_prueba_h">230dp</dimen>
+    <dimen name="cards_button_width">50dp</dimen>
+    <dimen name="cards_button_height">48dp</dimen>
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="card_image_mini">190dp</dimen>
+    <dimen name="card_image_home_ancho">280dp</dimen>
+    <dimen name="card_image_home_alto">200dp</dimen>
+    <dimen name="card_image_height_prueba">150dp</dimen>
+    <dimen name="carddemo_list_padding">8dp</dimen>
+    <dimen name="card_expand">100dp</dimen>
+    <dimen name="card_expand_h">120dp</dimen>
+    <dimen name="card_expand_places">200dp</dimen>
+    <dimen name="card_size_prueba">250dp</dimen>
+    <dimen name="card_background_default_radius">2dp</dimen>
+
+    <!-- ##################### ARTICULOS ###########################-->
+
+    <dimen name="article_keylines">72dp</dimen>
+    <dimen name="article_titles">20sp</dimen>
+    <dimen name="article_subheading">16sp</dimen>
+    <dimen name="standard_padding_small">4dp</dimen>
+    <dimen name="standard_padding">8dp</dimen>
+    <dimen name="standard_padding_large">16dp</dimen>
+    <dimen name="tile_padding">20dp</dimen>
+    <dimen name="tile_height">160dp</dimen>
+
+    <!-- ##################### EXTRAS ###########################-->
+
+
+    <!-- LINEAS MUERTAS -->
+    <dimen name="md_keylines">16dp</dimen>
+    <dimen name="home_keylines">10dp</dimen>
+    <dimen name="simple_keyline">18dp</dimen>
+    <dimen name="margin_title_cardv">210dp</dimen>
+    <dimen name="margin_subtitle_cardv">235dp</dimen>
+    <dimen name="keylines">5dp</dimen>
+
+    <!-- NAVIGATION DRAWER -->
+    <dimen name="app_bar_height">256dp</dimen>
+    <dimen name="navheader_height">222dp</dimen>
+    <dimen name="avator_size">40dp</dimen>
+    <dimen name="tabsHeight">48dp</dimen>
+
+    <!-- MARGENES -->
+    <dimen name="fab_margin">5dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- OTROS -->
+    <dimen name="list_body">14sp</dimen>
+    <dimen name="hd_fab_size">52dp</dimen>
+    <dimen name="hd_button_elevation">2dp</dimen>
+    <dimen name="hd_button_press_elevation">4dp</dimen>
+    <dimen name="toolbar_x2">112dp</dimen>
+    <dimen name="circle_elevation">4dp</dimen>
+    <dimen name="circle_size">70dp</dimen>
+    <dimen name="arrow_size">32dp</dimen>
+    <dimen name="product_description_min_height">100dp</dimen>
+    <dimen name="card_height_eventos">210dp</dimen>
+
+
+    <!-- PARA LO DE DETALLES DE HOY ACT. -->
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="header_bar_height">72dp</dimen>
+    <dimen name="action_bar_size">56dp</dimen>
+    <dimen name="intersection_height">16dp</dimen>
+    <dimen name="flexible_space_image_height">240dp</dimen>
+    <dimen name="parallax_image_height">250dp</dimen>
+    <dimen name="activity_horizontal_marginhoy">45dp</dimen>
+    <dimen name="activity_vertical_marginhoy">50dp</dimen>
+
+</resources>

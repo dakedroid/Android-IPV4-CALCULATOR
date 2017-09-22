@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_post_owner_display"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tec" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="18dp"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrantes del equipo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginEnd="@dimen/md_keylines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_post_owner_display_kevin"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/kevin" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:textSize="18dp"
+
+                    android:maxLines="3"
+                    android:lines="2"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kevin David Molina Gomez"
+                    android:layout_weight="1.80" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/md_keylines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_post_owner_display_sixto"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/sixto" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:textSize="18dp"
+                    android:maxLines="3"
+                    android:lines="2"
+                    android:layout_marginTop="@dimen/md_keylines"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jorge Luis Sixto Roberto" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
