@@ -9,21 +9,56 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView_title"
             android:textSize="26dp"
             android:layout_marginTop="@dimen/md_keylines"
             android:gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Asesor" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_post_owner_display_felipe"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/felipe" />
+
+            <TextView
+                android:id="@+id/textView_felipe"
+                android:textSize="18dp"
+                android:maxLines="3"
+                android:lines="2"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ing. Felipe de Jesus Niño de la Cruz"
+                android:layout_weight="1.80" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="26dp"
+            android:layout_marginTop="@dimen/keylines"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Integrantes del equipo" />
+
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_marginTop="@dimen/md_keylines"
+            android:layout_marginTop="@dimen/keylines"
             android:orientation="horizontal"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content">
+
+
+
 
             <LinearLayout
                 android:orientation="vertical"
